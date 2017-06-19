@@ -34,7 +34,12 @@ public class Assignments {
 		 System.out.print(firstInitial + " " + lastName + " " + houseNumber + " "); 
 		 System.out.println(streetName + " " + streetType + " " + city);
 		 
+		 //Escape Sequences
 		 
+		 System.out.println("Cost\t\tQuantity\tTotal\n" +
+				 			"$1,000.00\t4\t\t$4,000.00\n" +
+				 			"$50.00\t\t8\t\t$400.00\n\n" +
+				 			"TOTAL:\t\t12\t\t$4,400.00");		 
 		 
 	}
 
