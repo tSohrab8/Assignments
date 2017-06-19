@@ -39,7 +39,17 @@ public class Assignments {
 		 System.out.println("Cost\t\tQuantity\tTotal\n" +
 				 			"$1,000.00\t4\t\t$4,000.00\n" +
 				 			"$50.00\t\t8\t\t$400.00\n\n" +
-				 			"TOTAL:\t\t12\t\t$4,400.00");		 
+				 			"TOTAL:\t\t12\t\t$4,400.00");
+		 
+		 //Special Characters Assignment
+	     String message1, message2;
+	    
+	     message1 = "message1 = \\/\\/\\/\\/\\/\\r\\t\\b\n";
+	     message2 = "message2 = \";";
+	    
+	     System.out.println(message1 + message2);
+
+		 
 		 
 	}
 
